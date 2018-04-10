@@ -4,6 +4,22 @@
     background-color: #e6f3ff;
 }
 
+nav {
+    text-align: right;
+    background-color: #e6f3ff;
+}
+
+.navItem {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    transition: color .2s linear;
+}
+
+.navItem:hover {
+    color: #ff5050;
+}
+
 body {
     text-align: center;
     color: #333;
@@ -36,14 +52,14 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a {
+#contactLink {
     text-decoration: none;
     color: #333;
     border-bottom: 1px dotted;
     transition: color .2s linear;
 }
 
-a:hover {
+#contactLink:hover {
     color: #ff5050;
 }
 
